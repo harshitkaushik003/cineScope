@@ -1,6 +1,6 @@
 // fetching movies from the api 
 async function fetchMovies(query){
-    const response = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=94bc2489&s=${query}`);
+    const response = await fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=94bc2489&s=${query}`);
     const data = await response.json();
     return data.Search || [];
 }
