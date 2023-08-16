@@ -16,7 +16,7 @@ a{
 }
 
 #page-background{
-    background-image: url("/images/second.jpg");
+    background-image: url("../images/second.jpg");
     width: 100vw;
     height: 100vh;
     background-size: cover;
