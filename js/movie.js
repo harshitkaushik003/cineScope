@@ -4,7 +4,7 @@ const query = localStorage.getItem("currentMovie");
 
 // fetching movie from api 
 async function fetchMovie(query){
-    const response = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=94bc2489&t=${query}`);
+    const response = await fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=94bc2489&t=${query}`);
     const data = await response.json();
     return data || [];
 }
