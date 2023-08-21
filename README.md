@@ -17,6 +17,7 @@ Cast
 Plot summary
 User reviews and ratings
 
+
 3. Favorites
 Cinescope lets you create your own list of favorite movies. On each movie page, there's an "Add to Favorites" button that allows you to save movies you love. These favorites are stored for your convenience, so you can easily revisit them later.
 
