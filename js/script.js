@@ -19,7 +19,7 @@ searchInput.addEventListener('input', async(event)=>{
         console.log(movieSuggestions);
         for(const movie of movieSuggestions){
             const link = document.createElement('a');
-            link.setAttribute("href", "/views/movie.html")
+            link.setAttribute("href", "./views/movie.html")
             const movieList = document.createElement('div');
             movieList.classList.add('movie-list');
             movieList.innerHTML += `
