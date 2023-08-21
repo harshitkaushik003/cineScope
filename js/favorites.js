@@ -26,7 +26,7 @@ function renderList(){
     for(let movie of ls){
         main.innerHTML += `
             <div class="movie-card">
-                <a href='./movie.html'><div class="movie-card-img" data-value='${movie.Title}'><img src="${movie.Poster}"></div></a>    
+                <a href='movie.html'><div class="movie-card-img" data-value='${movie.Title}'><img src="${movie.Poster}"></div></a>    
                 <div class="text-area">
                     <div class="movie-name"><span>${movie.Title}</span></div>
                     <div class="remove-btn" data-value='${movie.Title}'><i class="fa-solid fa-circle-minus"></i></div>
