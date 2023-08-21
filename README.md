@@ -18,5 +18,4 @@ Plot summary
 User reviews and ratings 3. Favorites
 Cinescope lets you create your own list of favorite movies. On each movie page, there's an "Add to Favorites" button that allows you to save movies you love. These favorites are stored for your convenience, so you can easily revisit them later.
 
-4. Favorites Page
    The "Favorites" section provides a comprehensive list of all the movies you've added to your favorites. This page helps you keep track of your preferred movies and access their details without the need to search for them again.
